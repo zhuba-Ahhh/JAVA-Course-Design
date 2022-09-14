@@ -1,0 +1,173 @@
+2020-11-24 19:13:54 [ Thread-10537:1] -[ ERROR] 
+java.net.UnknownHostException: music.163.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:732)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:297)
+	at cn.gxust.httputils.CloudRequest.getMusicDetail(CloudRequest.java:104)
+	at cn.gxust.ui.MainApp.lambda$play$35(MainApp.java:1070)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2020-11-24 19:13:54 [ Thread-10529:1] -[ ERROR] 
+java.net.UnknownHostException: music.163.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:732)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:297)
+	at cn.gxust.httputils.CloudRequest.getMusicDetail(CloudRequest.java:104)
+	at cn.gxust.ui.MainApp.lambda$play$35(MainApp.java:1070)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2020-11-24 19:14:57 [ Thread-10543:62728] -[ ERROR] 
+java.net.UnknownHostException: music.163.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.<init>(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:732)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:297)
+	at cn.gxust.httputils.CloudRequest.getMusicDetail(CloudRequest.java:104)
+	at cn.gxust.ui.MainApp.lambda$play$35(MainApp.java:1070)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2020-11-26 10:02:56 [ Thread-4:1] -[ ERROR] 
+java.net.UnknownHostException: music.163.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:732)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:297)
+	at cn.gxust.httputils.CloudMusicSpider.getPlayList(CloudMusicSpider.java:44)
+	at cn.gxust.ui.MainApp.lambda$changePlaylist$26(MainApp.java:847)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2020-11-27 16:01:20 [ Thread-4:0] -[ ERROR] 
+java.net.UnknownHostException: music.163.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:732)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:297)
+	at cn.gxust.cloudutils.CloudMusicSpider.getPlayList(CloudMusicSpider.java:44)
+	at cn.gxust.ui.MainApp.lambda$changePlaylist$28(MainApp.java:873)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2020-11-27 16:05:45 [ Thread-4:0] -[ ERROR] 
+java.net.UnknownHostException: music.163.com
+	at java.base/sun.nio.ch.NioSocketImpl.connect(Unknown Source)
+	at java.base/java.net.SocksSocketImpl.connect(Unknown Source)
+	at java.base/java.net.Socket.connect(Unknown Source)
+	at java.base/sun.security.ssl.SSLSocketImpl.connect(Unknown Source)
+	at java.base/sun.net.NetworkClient.doConnect(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.http.HttpClient.openServer(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.<init>(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsClient.New(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.getNewHttpClient(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect0(Unknown Source)
+	at java.base/sun.net.www.protocol.http.HttpURLConnection.plainConnect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.AbstractDelegateHttpsURLConnection.connect(Unknown Source)
+	at java.base/sun.net.www.protocol.https.HttpsURLConnectionImpl.connect(Unknown Source)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:732)
+	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:707)
+	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:297)
+	at cn.gxust.cloudutils.CloudMusicSpider.getPlayList(CloudMusicSpider.java:44)
+	at cn.gxust.ui.MainApp.lambda$changePlaylist$28(MainApp.java:873)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2020-12-08 16:28:24 [ JavaFX Application Thread:0] -[ WARN] ImageIO无法把音乐封面写入到文件内！尝试下载获取
+2020-12-08 16:35:33 [ JavaFX Application Thread:428832] -[ WARN] ImageIO无法把音乐封面写入到文件内！尝试下载获取
+2020-12-16 19:08:58 [ JavaFX Application Thread:0] -[ WARN] ImageIO无法把音乐封面写入到文件内！尝试下载获取
+2020-12-16 19:16:09 [ JavaFX Application Thread:431144] -[ WARN] ImageIO无法把音乐封面写入到文件内！尝试下载获取
+2020-12-16 19:16:46 [ JavaFX Application Thread:468258] -[ WARN] ImageIO无法把音乐封面写入到文件内！尝试下载获取
+2020-12-16 19:18:13 [ JavaFX Application Thread:555598] -[ WARN] ImageIO无法把音乐封面写入到文件内！尝试下载获取
+2020-12-24 11:45:26 [ JavaFX Application Thread:0] -[ WARN] ImageIO无法把音乐封面写入到文件内！尝试下载获取
+2021-11-20 19:27:00 [ Thread-9:0] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-20 19:27:32 [ Thread-79:31721] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-20 19:27:59 [ Thread-81:58903] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-20 19:28:18 [ Thread-85:77795] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-20 19:28:24 [ Thread-89:83835] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-20 19:28:29 [ Thread-91:89007] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-20 19:28:53 [ Thread-93:113593] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)
+2021-11-20 19:29:07 [ Thread-95:127432] -[ ERROR] 
+java.lang.NullPointerException: Cannot invoke "com.alibaba.fastjson.JSONObject.getString(String)" because "resultJson" is null
+	at cn.gxust.cloudutils.CloudMusicSpider.getSongList(CloudMusicSpider.java:110)
+	at cn.gxust.ui.MainApp.lambda$searchSongList$35(MainApp.java:1266)
+	at java.base/java.lang.Thread.run(Unknown Source)

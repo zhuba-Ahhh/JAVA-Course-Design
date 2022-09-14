@@ -1,0 +1,8 @@
+开发环境：jdk8  jdk1.8.0_202
+IDE：IntelliJ IDEA Community Edition 2021.2.3
+GameClient：客户端项目
+GameService：服务端项目
+
+运行GameClient和GameService需要设置客户端和服务端中ip地址,输入即可，使用tcp链接，两台电脑对战需要连接在同一局域网
+
+

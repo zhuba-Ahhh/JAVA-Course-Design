@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="ChineseChess">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/ChineseChess/out/artifacts/ChineseChess_jar/ChineseChess.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,10 @@
+java.net.BindException: Address already in use: Cannot bind
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.socketBind(Native Method)
+	at java.base/java.net.DualStackPlainDatagramSocketImpl.bind0(DualStackPlainDatagramSocketImpl.java:84)
+	at java.base/java.net.AbstractPlainDatagramSocketImpl.bind(AbstractPlainDatagramSocketImpl.java:135)
+	at java.base/java.net.DatagramSocket.bind(DatagramSocket.java:394)
+	at java.base/java.net.DatagramSocket.<init>(DatagramSocket.java:244)
+	at java.base/java.net.DatagramSocket.<init>(DatagramSocket.java:301)
+	at java.base/java.net.DatagramSocket.<init>(DatagramSocket.java:273)
+	at gameCode.ChessBoard.run(ChessBoard.java:1080)
+	at java.base/java.lang.Thread.run(Thread.java:834)

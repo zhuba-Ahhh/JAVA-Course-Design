@@ -1,0 +1,2 @@
+./bin/javaw.exe 
+-XX:+UnlockExperimentalVMOptions -XX:+UseZGC -Dfile.encoding=utf-8 cn.gxust.MainRunApp
