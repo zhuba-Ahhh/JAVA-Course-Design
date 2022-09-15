@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TreeView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane prefHeight="660.0" prefWidth="882.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.talk.MainWindowController">
+    <columnConstraints>
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+        <ColumnConstraints />
+    </columnConstraints>
+    <rowConstraints>
+        <RowConstraints />
+    </rowConstraints>
+    <children>
+        <GridPane prefHeight="670.0" prefWidth="258.0">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints maxHeight="291.5999816894531" minHeight="10.0" prefHeight="67.20000610351562" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="594.3999938964844" minHeight="10.0" prefHeight="557.3999877929688" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="594.3999938964844" minHeight="10.0" prefHeight="25.5999755859375" vgrow="SOMETIMES" />
+            <RowConstraints maxHeight="594.3999938964844" minHeight="10.0" prefHeight="44.00002441406252" vgrow="SOMETIMES" />
+            </rowConstraints>
+            <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <opaqueInsets>
+                  <Insets />
+               </opaqueInsets>
+               <children>
+                  <Button fx:id="btnUserName" mnemonicParsing="false" onAction="#userNameClicked" prefHeight="100.0" prefWidth="182.0" style="-fx-background-color: #e6e6e6;">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </Button>
+               </children>
+            </GridPane>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="182.0" GridPane.rowIndex="3">
+               <children>
+                  <Button mnemonicParsing="false" onAction="#addFriendClicked" text="添加好友">
+                     <HBox.margin>
+                        <Insets right="10.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" onAction="#deleteFriendClicked" text="删除好友" textFill="#cf0b0b">
+                     <HBox.margin>
+                        <Insets left="10.0" />
+                     </HBox.margin>
+                  </Button>
+               </children>
+            </HBox>
+            <VBox GridPane.rowIndex="1">
+               <children>
+                  <VBox prefHeight="477.0" prefWidth="182.0">
+                     <children>
+                        <TreeView fx:id="friendsList" prefHeight="415.0" prefWidth="182.0" style="-fx-background-insets: 0; -fx-background-color: #f3f3f3;" />
+                     </children>
+                  </VBox>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <TreeView fx:id="unRead" prefHeight="200.0" prefWidth="200.0" />
+                     </children>
+                  </VBox>
+               </children>
+            </VBox>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="182.0" GridPane.rowIndex="2">
+               <children>
+                  <Label fx:id="addResult" alignment="BOTTOM_CENTER" text="Hello，World" textFill="#0fed0e" />
+               </children>
+            </HBox>
+            </children>
+        </GridPane>
+        <GridPane prefHeight="594.0" prefWidth="775.0" style="-fx-background-color: #f3f3f3;" GridPane.columnIndex="3">
+            <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+            </columnConstraints>
+            <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+            </rowConstraints>
+         <children>
+            <GridPane>
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints maxHeight="478.4" minHeight="10.0" prefHeight="471.1999877929687" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="325.6000122070312" minHeight="10.0" prefHeight="189.60001220703123" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <children>
+                  <GridPane style="-fx-background-color: white;" GridPane.rowIndex="1">
+                    <columnConstraints>
+                      <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                    </columnConstraints>
+                    <rowConstraints>
+                      <RowConstraints maxHeight="58.60001220703125" minHeight="0.0" prefHeight="0.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="159.0" minHeight="10.0" prefHeight="159.0" vgrow="SOMETIMES" />
+                      <RowConstraints maxHeight="55.199987792968756" minHeight="10.0" prefHeight="31.399987792968744" vgrow="SOMETIMES" />
+                    </rowConstraints>
+                     <children>
+                        <HBox alignment="CENTER_RIGHT" prefHeight="100.0" prefWidth="200.0" GridPane.rowIndex="2">
+                           <children>
+                              <Label fx:id="sendResult" textFill="#0ed75b">
+                                 <font>
+                                    <Font size="15.0" />
+                                 </font>
+                                 <HBox.margin>
+                                    <Insets right="250.0" />
+                                 </HBox.margin>
+                              </Label>
+                              <Button mnemonicParsing="false" onAction="#sendClicked" text="发送">
+                                 <HBox.margin>
+                                    <Insets bottom="5.0" right="10.0" />
+                                 </HBox.margin>
+                                 <padding>
+                                    <Insets bottom="5.0" left="20.0" right="20.0" top="5.0" />
+                                 </padding>
+                              </Button>
+                           </children>
+                        </HBox>
+                        <TextArea fx:id="textMsg" prefHeight="200.0" prefWidth="200.0" promptText="请输入聊天内容" wrapText="true" GridPane.rowIndex="1" />
+                     </children>
+                  </GridPane>
+                  <VBox prefHeight="460.0" prefWidth="699.0">
+                     <children>
+                        <HBox alignment="CENTER">
+                           <children>
+                              <Label fx:id="talkFriendName" text=" " textFill="#1832b4">
+                                 <font>
+                                    <Font size="32.0" />
+                                 </font>
+                              </Label>
+                           </children>
+                        </HBox>
+                        <ScrollPane prefHeight="432.0" prefWidth="680.0">
+                           <content>
+                              <VBox fx:id="msgVBox" prefWidth="680.0" />
+                           </content>
+                        </ScrollPane>
+                     </children>
+                  </VBox>
+               </children>
+            </GridPane>
+         </children>
+        </GridPane>
+    </children>
+</GridPane>

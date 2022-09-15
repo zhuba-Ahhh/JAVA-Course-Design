@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<groupList> 
+  <group name="我的歌单" createDate="2019-02-10 00:09:01"> 
+    <sound> 
+      <filePath>D:\project\音乐播放器\MusicPlayer\sound\相思創愛.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>  
+    <sound> 
+      <filePath>D:\project\音乐播放器\MusicPlayer\sound\華の集落、秋のお届け.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>
+    <sound> 
+      <filePath>D:\project\音乐播放器\MusicPlayer\sound\Libertus.mp3</filePath>  
+      <addDate>2019-02-10 00:09:09</addDate> 
+    </sound>
+  </group>  
+  
+</groupList>
