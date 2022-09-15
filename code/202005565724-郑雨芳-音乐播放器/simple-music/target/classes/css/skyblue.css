@@ -1,0 +1,13 @@
+@import "common.css";
+.root{
+    -base-hover-color: #37c5ef;
+}
+.content-pane{
+    -fx-background-image:url("../img/bg_skyblue.jpg") ;
+}
+.rx-lrc-view{
+    -fx-font-family:"华文楷体";
+}
+.rx-audio-spectrum{
+    -rx-crest-pos:MIDDLE;
+}
