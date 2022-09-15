@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact name="saolei:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/saolei_jar</output-path>
+    <root id="root">
+      <element id="archive" name="saolei.jar">
+        <element id="directory" name="META-INF">
+          <element id="file-copy" path="$USER_HOME$/Desktop/META-INF/MANIFEST.MF" />
+        </element>
+        <element id="module-output" name="saolei" />
+      </element>
+    </root>
+  </artifact>
+</component>

@@ -1,0 +1,2 @@
+INSERT INTO `music_play` (`music_id`, `soundName`, `artist`, `album`, `length`, `time`, `labDelete`, `image`, `totalSeconds`, `filePath`, `mediaPlayer`, `lrcPath`) VALUES (1, '小幸运', '田馥甄', '我的少女时代 电影原声带', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'D:\\KuGou\\田馥甄 - 小幸运.lrc');
+INSERT INTO `music_play` (`music_id`, `soundName`, `artist`, `album`, `length`, `time`, `labDelete`, `image`, `totalSeconds`, `filePath`, `mediaPlayer`, `lrcPath`) VALUES (2, '阿衣莫', '阿吉太组合', '阿衣莫', NULL, NULL, NULL, NULL, NULL, NULL, NULL, 'D:\\KuGou\\阿吉太组合 - 阿衣莫.lrc');
