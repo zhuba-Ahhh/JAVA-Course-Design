@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/202005565712颜文军JAVA.iml" filepath="$PROJECT_DIR$/.idea/202005565712颜文军JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ChineseChess/ChineseChess.iml" filepath="$PROJECT_DIR$/ChineseChess/ChineseChess.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exe/exe.iml" filepath="$PROJECT_DIR$/exe/exe.iml" />
+    </modules>
+  </component>
+</project>

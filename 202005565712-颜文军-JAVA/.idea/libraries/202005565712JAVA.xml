@@ -1,0 +1,10 @@
+<component name="libraryTable">
+  <library name="202005565712颜文军JAVA">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/exe.zip!/" />
+      <root url="jar://$PROJECT_DIR$/ChineseChess.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
