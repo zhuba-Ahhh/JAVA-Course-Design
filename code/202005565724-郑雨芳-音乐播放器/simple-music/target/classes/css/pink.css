@@ -1,0 +1,13 @@
+@import "common.css";
+.root{
+    -base-hover-color: #ea9bd1;
+}
+.content-pane{
+    -fx-background-image:url("../img/bg_pink.jpg") ;
+}
+.rx-lrc-view{
+    -fx-font-family:"方正姚体";
+}
+.rx-audio-spectrum{
+    -rx-crest-pos:LEFT;
+}
