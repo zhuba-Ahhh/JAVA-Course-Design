@@ -6,4 +6,4 @@ XTU-2020级Java课程设计-刘新老师教授，可自行下载学习，编译�
 code目录下是一些其他同学的作品，感谢2020级软件同学的贡献。
 
 只下载部分文件:
-(DownGit)[https://minhaskamal.github.io/DownGit/#/home]
+[DownGit](https://minhaskamal.github.io/DownGit/#/home)
